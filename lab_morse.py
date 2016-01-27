@@ -1,5 +1,4 @@
 import sys
-import calendar
 
 class Morseifier:
 	# MAKE AS MANY CHANGES TO THE CLASS AS YOU WANT
