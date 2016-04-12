@@ -20,7 +20,7 @@ def main():
         print('Congratulations, no errors')
     else:
         print('Uh oh, %d error/s remain' % errors)
-        
+
     return errors
 
 if __name__ == '__main__':

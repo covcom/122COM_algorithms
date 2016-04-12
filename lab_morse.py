@@ -9,7 +9,7 @@ class Morseifier:
 
     def untranslate(self,morse):
         # COMPLETE ME
-        return 
+        return
 
 def main():
     m = Morseifier()
@@ -42,6 +42,8 @@ def main():
     else:
         print('Uh oh, %d error/s remain' % errors)
         print('..- .... / --- .... / . .-. .-. --- .-. ... / .-. . -- .- .. -.')
+
+    return errors
 
 if __name__ == '__main__':
     sys.exit(main())
