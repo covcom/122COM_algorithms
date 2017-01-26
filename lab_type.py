@@ -46,5 +46,6 @@ def testing():
     return errors
 
 if __name__ == '__main__':
-    testing()
-    sys.exit(main())
+    errors = testing()
+    main()
+    sys.exit(errors)
