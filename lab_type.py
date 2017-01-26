@@ -43,6 +43,8 @@ def testing():
     else:
         print('Uh oh, {} error/s remain'.format(errors) )
         
+    return errors
+
 if __name__ == '__main__':
     testing()
     sys.exit(main())
