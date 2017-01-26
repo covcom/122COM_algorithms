@@ -1,5 +1,31 @@
 import sys
 
+def find_type(value):
+    # COMPLETE ME
+
+    return
+
+def main():
+    print('Enter something to identify if it\'s an int, float, string or boolean')
+
+    # COMPLETE ME
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def testing():
     tests = [('1','int'),('1.23','float'),('hello','string'),('True','boolean'),('1.2.3.4','string'),('fAlSe','boolean'),('fa1se','string')]
 
@@ -15,18 +41,7 @@ def testing():
         print('Congratulations, no errors')
     else:
         print('Uh oh, %d error/s remain' % errors)
-
-def find_type(value):
-    # COMPLETE ME
-
-    return
-
-def main():
-    print('Enter something to identify if it\'s an int, float, string or boolean')
-
-    # COMPLETE ME
-
-
+        
 if __name__ == '__main__':
     testing()
     sys.exit(main())

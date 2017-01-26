@@ -6,6 +6,25 @@ def leap_year(year):
 
     return False
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def main():
     errors = 0
     for year in range(1800,2101):
@@ -20,6 +39,8 @@ def main():
         print('Congratulations, no errors')
     else:
         print('Uh oh, %d error/s remain' % errors)
+
+    return errors
 
 if __name__ == '__main__':
     sys.exit(main())
