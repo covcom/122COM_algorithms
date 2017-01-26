@@ -32,13 +32,13 @@ def main():
         yourAnswer = leap_year(year)
 
         if correctAnswer != yourAnswer:
-            print('Error! leap_year() says %d %s a leap year but it %s' % (year, 'is' if yourAnswer else 'is not', 'is' if correctAnswer else 'is not'))
+            print('Error! leap_year() says {} {} a leap year but it {}'.format(year, 'is' if yourAnswer else 'is not', 'is' if correctAnswer else 'is not'))
             errors += 1
 
     if errors == 0:
         print('Congratulations, no errors')
     else:
-        print('Uh oh, %d error/s remain' % errors)
+        print('Uh oh, {} error/s remain'.format(errors))
 
     return errors
 

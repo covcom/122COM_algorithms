@@ -34,13 +34,14 @@ def testing():
         yourAnswer = find_type(test)
 
         if correctAnswer != yourAnswer:
-            print('Error! %s is a %s but find_type() claims it is a %s' % (test,correctAnswer,yourAnswer))
+            print('Error! {} is a {} but find_type() claims it is a {}'.format(test,correctAnswer,yourAnswer))
+            print()
             errors += 1
 
     if errors == 0:
         print('Congratulations, no errors')
     else:
-        print('Uh oh, %d error/s remain' % errors)
+        print('Uh oh, {} error/s remain'.format(errors) )
         
 if __name__ == '__main__':
     testing()
