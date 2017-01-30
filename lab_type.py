@@ -27,7 +27,7 @@ def main():
 
 
 def testing():
-    tests = [('1','int'),('1.23','float'),('hello','string'),('True','boolean'),('1.2.3.4','string'),('fAlSe','boolean'),('fa1se','boolean'),('this is true','string')]
+    tests = [('1','int'),('1.23','float'),('hello','string'),('True','boolean'),('1.2.3.4','string'),('fAlSe','boolean'),('fa1se','string'),('this is true','string')]
 
     errors = 0
     for test, correctAnswer in tests:
