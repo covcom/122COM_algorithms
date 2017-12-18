@@ -1,1 +1,1 @@
-# 122COM_recap
+# 122COM_algorithms
