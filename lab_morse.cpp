@@ -61,10 +61,10 @@ int main()
 {
     Morseifier m;
 
-    vector< tuple<string, string> > tests { {"MORSE CODE","-- --- .-. ... . / -.-. --- -.. ."},
-                                            {"INSPECTOR MORSE",".. -. ... .--. . -.-. - --- .-. / -- --- .-. ... ."}, 
-                                            {"",""}, 
-                                            {"LAST OF THE MORSICANS",".-.. .- ... - / --- ..-. / - .... . / -- --- .-. ... .. -.-. .- -. ..."} };
+    vector< tuple<string, string> > tests { make_tuple("MORSE CODE","-- --- .-. ... . / -.-. --- -.. ."),
+                                            make_tuple("INSPECTOR MORSE",".. -. ... .--. . -.-. - --- .-. / -- --- .-. ... ."), 
+                                            make_tuple("",""), 
+                                            make_tuple("LAST OF THE MORSICANS",".-.. .- ... - / --- ..-. / - .... . / -- --- .-. ... .. -.-. .- -. ...") };
 
     int errors = 0;
     for( auto test : tests )

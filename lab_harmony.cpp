@@ -30,13 +30,13 @@ int harmony( int a, int b )
 
 int main()
 {
-    vector< tuple<int,int,int> > tests {{42, 69, 25}, 
-                                        {123, 999, 50},
-                                        {255, 254, 88},
-                                        {127, 128, 0},
-                                        {255, 126, 75},
-                                        {515, 3, 100},
-                                        {2147483647, 255, 100} };
+    vector< tuple<int,int,int> > tests {make_tuple(42, 69, 25), 
+                                        make_tuple(123, 999, 50),
+                                        make_tuple(255, 254, 88),
+                                        make_tuple(127, 128, 0),
+                                        make_tuple(255, 126, 75),
+                                        make_tuple(515, 3, 100),
+                                        make_tuple(2147483647, 255, 100) };
 
     int errors = 0;
     for( auto test : tests )
