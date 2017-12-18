@@ -34,7 +34,7 @@ def testing():
         yourAnswer = find_type(test)
 
         if correctAnswer != yourAnswer:
-            print('Error! {} is a {} but find_type() claims it is a {}'.format(test,correctAnswer,yourAnswer))
+            print('Error! - "{}" is a {} but find_type() claims it is a {}'.format(test,correctAnswer,yourAnswer))
             print()
             errors += 1
 
