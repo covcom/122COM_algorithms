@@ -15,7 +15,7 @@ def harmony( a, b ):
     # how many bits match
     count = 0
     for i in range(8):
-        if aBinary[i] == bBinary[i] and aBinary[i]:
+        if aBinary[i] == bBinary[i]:
             count += 1
 
     # figure out percentage
@@ -48,7 +48,7 @@ def main():
             (255, 254, 88), \
             (127, 128, 0), \
             (255, 126, 75), \
-            (515, 3, 25), \
+            (515, 3, 100), \
             (2147483647, 255, 100)]
 
     errors = 0
